@@ -54,9 +54,9 @@
                 </div>
                  <div class="tab-contents" id="experience">
                     <ul>
-                        <li><span>UI/UX</span><br>Designing Wep/App interfaces</li>
-                        <li><span>Web Development</span><br>Web Development</li>
-                        <li><span>App Development</span><br>Building Android/iOS app</li>
+                        <li><span>Mar 2024 - May 2024</span><br>School Management System-Java Desktop Application</li>
+                        <li><span>Mar 2025</span><br>Amazon Website Clone Front-End Project</li>
+                        <li><span>April 2026</span><br>Personal Portfolio</li>
                     </ul>
                 </div>
                  <div class="tab-contents" id="education">
@@ -70,6 +70,15 @@
         </div>
     </div>
  </div>
+ <!-- -------------services-------------------->
+  <div id="services">
+    <div class="container">
+        <h1 class="sub-tittle">My Services</h1>
+        <div class="services-list">
+            
+        </div>
+    </div>
+  </div>
     
  <script>
 
@@ -82,6 +91,8 @@
         for(tabcontent of tabcontents){
             tabcontent.classList.remove("active-tab");
         }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
     }
 
  </script> 
