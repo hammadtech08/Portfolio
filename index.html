@@ -13,17 +13,19 @@
     <div class="container">
         <nav>
             <img src="images/logo.png" alt="logo">
-            <ul>
+            <ul id="sidemenu">
                 <li><a href="">Home</a></li>
                 <li><a href="">About</a></li>
                 <li><a href="">Services</a></li>
                 <li><a href="">Portfolio</a></li>
-                <li><a href="">Contact</a></li>    
+                <li><a href="">Contact</a></li>   
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
             </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
         </nav>
         <div class="header-text">
              <p>Software Engineering Student | Front-End Developer</p>
-             <h1>Hi, I'm <span>M.Hammad</span><br> from Pakistan</h1>
+             <h1>Hi, I'm <span>M.Hammad</span><br> From Pakistan</h1>
         </div>
     </div>
  </div>
@@ -109,19 +111,60 @@
                 <div class="layer">
                     <h3>Social Media App</h3>
                     <p>The app connects you to  the talented people around the World.
-                        Download it from play store.</p>
+                    Download it from play store.</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
                 </div>
             </div>
             <div class="work">
                 <img src="images/work-2.png">
+                <div class="layer">
+                    <h3>Music App</h3>
+                    <p>The app connects you to  the talented people around the World.
+                    Download it from play store.</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
             </div>
             <div class="work">
                 <img src="images/work-3.png">
+                <div class="layer">
+                    <h3>Online Shoppng App</h3>
+                    <p>The app connects you to  the talented people around the World.
+                    Download it from play store.</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
             </div>
         </div>
+        <a href="#" class="btn">See more</a>
     </div>
-
    </div>
+   <!-- ----------------contact----------------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-tittle">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>hammad.tech08@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i>+923079334678</p>
+                    <div class="social-icons">
+                        <a href="https://github.com/hammadtech08"><i class="fa-brands fa-github"></i></a>
+                        <a href="www.linkedin.com/in/muhammad-hammad-614281308"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message" ></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copy-right">
+            <p>Copyright <i class="fa-regular fa-copyright"></i> Kevin <i class="fa-solid fa-heart"></i> Made with by Eacy Tutorials</p>
+        </div>
+    </div>
     
  <script>
 
@@ -137,7 +180,19 @@
         event.currentTarget.classList.add("active-link");
         document.getElementById(tabname).classList.add("active-tab");
     }
+ </script>
+ 
+ <script>
 
- </script> 
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+
+ </script>
 </body>
 </html
