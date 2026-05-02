@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background: #080808;
     color:#fff; 
@@ -287,6 +291,9 @@ nav ul li a:hover::after {
 }
 
 /* --------------Contact--------------------- */
+.row {
+    margin-bottom: 0%;
+}
 .contact-left {
     flex-basis: 35%;   
 }
@@ -353,10 +360,11 @@ form .btn2 {
     padding: 25px 0;
     background: #262626;
     font-weight: 300;
-    margin-top: 20px;
+    margin-top: -75px;
 }
 .copy-right i {
     color: #ff004f;
+    
 }
 /* ---------------css for small screens------------- */
 /* nav .fa-regular {
@@ -407,4 +415,46 @@ nav .fa-solid {
     .about-col-1, .about-col-2 {
         flex-basis: 100%;
     }
+    .about-col-1 {
+        margin-bottom: 30px;
+    }
+    .about-col-2 {
+        font-size: 14px;
+    }
+    .tab-links {
+        font-size: 16px;
+        margin-right: 20px;
+    }
+    .contact-left, .contact-right {
+        flex-basis: 100%;
+    }
+    .copy-right {
+        font-size: 12px;
+    }
+    .header-text {
+        margin-top: 80px;
+    }
+    .header-text p {
+        font-size: 14px;
+    }
+    header-text h1 {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        font-size: 18px;
+    }
+    
+    .header-text h1 br {
+        display: none;  /* <br> ko hide kar do */
+    }
+    
+    .header-text h1 span {
+        display: flex;  /* Span inline rahega */
+    }
+}
+
+#msg {
+    color: #61b752;
+    margin-top: -40px;
+    display: block;
 }
