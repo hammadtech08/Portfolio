@@ -6,6 +6,23 @@ Author - Muhammad Hammad
 
 ----
 
+## 📸 Screenshots
+
+### Home
+![Home](screenshots/home.png)
+
+### About
+![About](screenshots/about.png)
+
+### Services
+![Services](screenshots/services.png)
+
+### Portfolio
+![Portfolio](screenshots/portfolio.png)
+
+### Contact
+![Contact](screenshots/contact.png)
+
 ## 🌐 Live Demo
 [https://hammadtech08.github.io/Portfolio/](https://hammadtech08.github.io/Portfolio/)
 
