@@ -9,19 +9,19 @@ Author - Muhammad Hammad
 ## 📸 Screenshots
 
 ### Home
-![Home](screenshots/home.png)
+![Home](Screenshots/home.png)
 
 ### About
-![About](screenshots/about.png)
+![About](Screenshots/about.png)
 
 ### Services
-![Services](screenshots/services.png)
+![Services](Screenshots/services.png)
 
 ### Portfolio
-![Portfolio](screenshots/portfolio.png)
+![Portfolio](Screenshots/portfolio.png)
 
 ### Contact
-![Contact](screenshots/contact.png)
+![Contact](Screenshots/contact.png)
 
 ## 🌐 Live Demo
 [https://hammadtech08.github.io/Portfolio/](https://hammadtech08.github.io/Portfolio/)
