@@ -27,7 +27,7 @@ Author - Muhammad Hammad
 ![Responsive Home](Screenshots/6_R_Home.png)
 
 ### Responsive Menu
-![Responsive Menu](Screenshots/_7_R_Menu.png)
+![Responsive Menu](Screenshots/7_R_Menu.png)
 
 ## 🌐 Live Demo
 [https://hammadtech08.github.io/Portfolio/](https://hammadtech08.github.io/Portfolio/)
