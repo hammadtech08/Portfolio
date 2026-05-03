@@ -9,19 +9,25 @@ Author - Muhammad Hammad
 ## 📸 Screenshots
 
 ### Home
-![Home](Screenshots/home.png)
+![Home](Screenshots/1_Home.png)
 
 ### About
-![About](Screenshots/about.png)
+![About](Screenshots/2_About.png)
 
 ### Services
-![Services](Screenshots/services.png)
+![Services](Screenshots/3_Services.png)
 
 ### Portfolio
-![Portfolio](Screenshots/portfolio.png)
+![Portfolio](Screenshots/4_Portfolio.png)
 
 ### Contact
-![Contact](Screenshots/contact.png)
+![Contact](Screenshots/5_Contact.png)
+
+### Responsive Home
+![Responsive Home](Screenshots/6_R_Home.png)
+
+### Responsive Menu
+![Responsive Menu](Screenshots/7_R_Menu.png)
 
 ## 🌐 Live Demo
 [https://hammadtech08.github.io/Portfolio/](https://hammadtech08.github.io/Portfolio/)
