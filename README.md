@@ -18,7 +18,7 @@ Author - Muhammad Hammad
 ![Services](Screenshots/3_Services.png)
 
 ### Portfolio
-![Portfolio](Screenshots/4_Portfolio.png)
+![Portfolio](Screenshots/4_Portfolio.png.png)
 
 ### Contact
 ![Contact](Screenshots/5_Contact.png)
@@ -27,7 +27,7 @@ Author - Muhammad Hammad
 ![Responsive Home](Screenshots/6_R_Home.png)
 
 ### Responsive Menu
-![Responsive Menu](Screenshots/7_R_Menu.png)
+![Responsive Menu](Screenshots/7_R_%20Menu.png)
 
 ## 🌐 Live Demo
 [https://hammadtech08.github.io/Portfolio/](https://hammadtech08.github.io/Portfolio/)
