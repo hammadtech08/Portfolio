@@ -360,16 +360,13 @@ form .btn2 {
     padding: 25px 0;
     background: #262626;
     font-weight: 300;
-    margin-top: -75px;
 }
 .copy-right i {
     color: #ff004f;
     
 }
 /* ---------------css for small screens------------- */
-/* nav .fa-regular {
-    display: none;
-} */
+
 nav .fa-solid {
     display: none;
 }
@@ -440,7 +437,7 @@ nav .fa-solid {
     .header-text p {
         font-size: 14px;
     }
-    header-text h1 {
+    .header-text h1 {
         display: flex;
         flex-direction: column;
         gap: 5px;
