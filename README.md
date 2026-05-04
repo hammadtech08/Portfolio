@@ -18,7 +18,7 @@ Author - Muhammad Hammad
 ![Services](Screenshots/3_Services.png)
 
 ### Portfolio
-![Portfolio](Screenshots/4_Portfolio.png.png)
+![Portfolio](Screenshots/4_Portfolio.png)
 
 ### Contact
 ![Contact](Screenshots/5_Contact.png)
